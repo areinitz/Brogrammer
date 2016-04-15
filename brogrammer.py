@@ -20,11 +20,12 @@ if work == "Arms" or work == "arms":
 
 	if effort == "easy" or effort == "Easy":
 		print "Do %d sets of %d curls, %d sets of %d dips." % (ezS, ezR, ezS, ezR)
-	if effort == "medium" or effort == "Medium":
+	elif effort == "medium" or effort == "Medium":
 		print "Do %d sets of %d curls, %d sets of %d dips." % (medS, medR, medS, medR)
-	if effort == "CRAY" or effort == "cray":
+	elif effort == "CRAY" or effort == "cray":
 		print "Get wild on %d sets of %d curls, %d sets of %d dips, and 50 pushups." % (crayS, crayR, crayS, crayR)
-
+	else:
+		print "%s sounds like a gnary typo, bro." % effort
 
 if work == "Legs" or work == "legs":
 	print "Nice, urryday's a leg day."
@@ -34,11 +35,12 @@ if work == "Legs" or work == "legs":
 
 	if effort == "easy" or effort == "Easy":
 		print "Do %d sets of %d leglifts, %d sets of %d hamstrings." % (ezS, ezR, ezS, ezR)
-	if effort == "medium" or effort == "Medium":
+	elif effort == "medium" or effort == "Medium":
 		print "Do %d sets of %d leglifts, %d sets of %d hamstrings." % (medS, medR, medS, medR)
-	if effort == "CRAY" or effort == "cray":
+	elif effort == "CRAY" or effort == "cray":
 		print "Push through %d sets of %d leglifts, %d sets of %d hamstrings, and 50 lunges." % (crayS, crayR, crayS, crayR)
-
+	else:
+		print "%s sounds like a gnary typo, bro." % effort
 
 if work == "Back" or work == "back":
 	print "What's that they say about the straw and the camel?"
@@ -48,11 +50,12 @@ if work == "Back" or work == "back":
 
 	if effort == "easy" or effort == "Easy":
 		print "Do %d sets of %d rows, %d sets of %d pullups." % (ezS, ezR, ezS, ezR)
-	if effort == "medium" or effort == "Medium":
+	elif effort == "medium" or effort == "Medium":
 		print "Do %d sets of %d rows, %d sets of %d pullups." % (medS, medR, medS, medR)
-	if effort == "CRAY" or effort == "cray":
+	elif effort == "CRAY" or effort == "cray":
 		print "Push through %d sets of %d rows, %d sets of %d pullups, and 100 reverse flys." % (crayS, crayR, crayS, crayR)
-
+	else:
+		print "%s sounds like a gnary typo, bro." % effort
 
 if work == "Cardio" or work == "cardio":
 	print "Run Forrest!"
@@ -62,11 +65,12 @@ if work == "Cardio" or work == "cardio":
 
 	if effort == "easy" or effort == "Easy":
 		print "Do 20 minutes on the treadmill at a 2% incline."
-	if effort == "medium" or effort == "Medium":
+	elif effort == "medium" or effort == "Medium":
 		print "Do 30 minutes on the treadmill at a 3% incline." 
-	if effort == "CRAY" or effort == "cray":
+	elif effort == "CRAY" or effort == "cray":
 		print "Try out a 5 mile run alternating between 3% and 5% incline every quarter mile."
-
+	else:
+		print "%s sounds like a gnary typo, bro." % effort
 
 
 
